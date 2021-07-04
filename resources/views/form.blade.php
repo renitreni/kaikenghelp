@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Tabang Form</h2>
+                    <h2 class="text-white mb-4">Help Form</h2>
                     <p class="text-white-50">
                         &quot;Hangga&apos;t maari ibigay ang impormasyong hinihingi. Sinisigurado namin na lahat ng
                         impormasyong ibibigay ay para lamang sa paghatid ng tulong at hindi ipamimigay o ipapamahagi
