@@ -17,3 +17,53 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+body {
+    background-image: url("../assets/BG.png");
+    background-size: 100% 100%;
+}
+
+.masthead {
+    padding-top: 6%;
+}
+
+.headline {
+    color: #fcc852;
+    text-shadow: -3px 1px 0px white;
+    font-family: sans-serif;
+}
+
+.part-1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.part-2 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.sub-headline {
+    font-size: 4.3rem;
+    margin-top: -46px;
+    font-weight: 900;
+    text-shadow: -1px 1px 3px black;
+    font-family: sans-serif;
+}
+
+.sub-headline-1 {
+    font-size: 1.3rem;
+    text-shadow: -1px 1px 3px black;
+    color: #dadada !important;
+}
+
+.sub-headline-2 {
+    font-size: 1.3rem;
+    text-shadow: -1px 1px 3px black;
+    color: #dadada !important;
+    font-family: cursive;
+}
+
+.pindutin {
+    margin-top: 96px;
+}

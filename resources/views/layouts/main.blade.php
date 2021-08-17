@@ -14,24 +14,17 @@
     <!-- logo -->
     <link rel="icon" type="image/x-icon" href="/theme/grayscale/assets/img/favicon.ico"/>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="{{ asset('theme/grayscale/css/styles.css') }}" rel="stylesheet"/>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet"/>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -39,30 +32,37 @@
 <body id="page-top">
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="{{ route('landing') }}">Ka-Ikeng Help</a>
-{{--        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"--}}
-{{--                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"--}}
-{{--                aria-label="Toggle navigation">--}}
-{{--            Menu--}}
-{{--            <i class="fas fa-bars"></i>--}}
-{{--        </button>--}}
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-{{--                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('form') }}">Tabang Form</a></li>--}}
-            </ul>
-        </div>
+    <div class="navbar-brand js-scroll-trigger d-flex flex-column">
+        <span class="text-white">Visit and like us on</span>
+        <div class="text-center"><img src="{{ asset('img/facebook.png') }}" width="40%"></div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-top: -60px !important;">
+        <ul class="navbar-nav ml-auto text-white">
+            <div class="mr-4">What is Ka-Iking HELPING?</div>
+            <div class="mr-4">Term Of Use</div>
+        </ul>
     </div>
 </nav>
 <!-- Masthead-->
 @yield('content')
-<!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50">
-    <div class="container">Copyright © Yaramay 2020</div>
+<footer>
+    <div class="d-flex pb-4">
+        <div class="ps-3 text-white d-flex flex-row">
+            <i class="fas fa-share-alt fs-1 me-4"></i>
+            <span class="align-self-center">Share Ka Iking HELPING</span>
+        </div>
+        <div class="text-white me-4" style="margin-left: 27%;">Copyright@ Yaramay 2021</div>
+        <div></div>
+    </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 <!-- Bootstrap core JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Third party plugin JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <!-- Core theme JS-->
